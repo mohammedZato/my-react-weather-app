@@ -7,7 +7,7 @@ function GlobalState({children}) {
     const [weatherinfo, setWeatherInfo] = useState([]);
 
     async function fetchWeather() {
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=8b056986316443d4b3730322240712&q=${cityName}&aqi=no`);
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=8b056986316443d4b3730322240712&q=${cityName}&aqi=no`)
         const result = await response.json();
 
         if (result) {
