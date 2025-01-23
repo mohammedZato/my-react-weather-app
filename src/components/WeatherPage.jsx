@@ -6,7 +6,7 @@ export default function WeatherPage() {
 
     return (
         <div>
-            <div class="flex items-center justify-center space-x-4 pt-20">
+            <div class="flex items-center justify-center space-x-2 pt-20">
                 <form>
                     <input 
                         type="text" 

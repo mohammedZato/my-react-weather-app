@@ -6,7 +6,7 @@ export default function WeatherInfo() {
 
     return (
         <div class="text-center">
-            <div class="flex flex-col items-center justify-center">
+            <div class="flex flex-col items-center justify-center px-3">
                 <h1 class="mt-[3rem] text-gray-600 font-medium">{weatherinfo.name}</h1>
                 <div class="flex justify-center items-center space-x-3">
                     <img 
