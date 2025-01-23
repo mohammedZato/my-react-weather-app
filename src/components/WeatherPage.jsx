@@ -6,11 +6,11 @@ export default function WeatherPage() {
 
     return (
         <div>
-            <div class="flex items-center justify-center mx-6 space-x-5 pt-20">
+            <div class="flex items-center justify-center space-x-4 pt-20">
                 <form>
                     <input 
                         type="text" 
-                        class="px-4 py-1 rounded border-b-[1px] w-[23rem] outline-none"
+                        class="px-4 py-1 ml-1 rounded border-b-[1px] w-[20rem] outline-none sm:w-[23rem]"
                         placeholder="Enter Name of City"
                         id="cityName"
                         name="cityName"
@@ -19,7 +19,7 @@ export default function WeatherPage() {
                     />
                 </form>
                 <span onClick={handleApiCall}>
-                    <ion-icon class="text-4xl cursor-pointer" name="search-circle"></ion-icon>
+                    <ion-icon class="text-4xl mt-1 cursor-pointer" name="search-circle"></ion-icon>
                 </span>
             </div>   
         </div>  

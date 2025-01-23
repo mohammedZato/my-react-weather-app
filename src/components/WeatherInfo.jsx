@@ -18,7 +18,7 @@ export default function WeatherInfo() {
                     <h2 class="text-3xl text-gray-600 font-medium">{weatherinfo.text}</h2>
                 </div>
             </div>
-            <div class="border rounded-xl bg-gray-200 py-3 mx-20 mt-16 text-center lg:mx-72">
+            <div class="border rounded-xl bg-gray-200 py-3 mx-20 mt-16 text-center md:mx-60 lg:mx-72">
                 <h3 class="text-gray-600 font-medium text-2xl">{weatherinfo.localTime}</h3>
             </div>
             <div class="bg-slate-800 grid grid-cols-2 text-white absolute py-3 bottom-0 right-0 left-0 md:grid-cols-4">
